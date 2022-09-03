@@ -3,7 +3,7 @@ import './FormUp.css';
 import React, {useState} from 'react';
 
 export default function FormUp(props){
-  const [text, setText] = useState('Enter Here');
+  const [text, setText] = useState('Enter Here...');
   let words = text.split(' ').filter(function(n) { return n != '' }).length;
   let space = 0;
   let ws = 0;
