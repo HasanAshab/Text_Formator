@@ -28,7 +28,7 @@ function App() {
           <li className="text-[15px] text-white">Contact</li>
         </ul>
       </div>
-      <FormUp color={color} togle={togle}/>}/>
+      <FormUp color={color} togle={togle}/>
     </>
   );
 }
