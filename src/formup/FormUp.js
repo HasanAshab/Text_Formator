@@ -75,8 +75,6 @@ export default function FormUp(props){
   return(
     <>
     <div className="">
-      <label htmlFor="checkbox" className={`${props.color==="white"?"text-black":"text-white"} float-right`}>Enable DarkMode</label>
-      <input id="checkbox" type="checkbox" onClick={props.togle} className="float-right relative top-[3px] right-[2px]"/>
       <textarea className='mt-20 mb-0 container border-[3px] border-black h-[15vh] {props.color==="white"?"text-black":"text-white"}' value={text} onChange={changeF}></textarea>
       <small className={props.color==="white"?"text-black":"text-white"}>{words} Words, {text.length-space} Chars, {lines} Lines</small>
       <br/><br/>

@@ -23,9 +23,9 @@ function App() {
     <>
       <div className={`flex h-[5vh] justify-between items-center ${color==="white"?"bg-purple-600":"bg-violet-900"}`}>
         <h1 className="text-[20px] font-bold text-white">Text Formator</h1>
-        <ul className="flex justify-end space-x-7 pr-2">
-          <li className="text-[15px] text-white">About</li>
-          <li className="text-[15px] text-white">Contact</li>
+        <ul>
+      <label htmlFor="checkbox" className={`text-white text-[17px] float-right`}>Enable DarkMode</label>
+      <input id="checkbox" type="checkbox" onClick={togle} className="float-right relative top-[3px] right-[2px]"/>
         </ul>
       </div>
       <FormUp color={color} togle={togle}/>
